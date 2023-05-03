@@ -3,8 +3,7 @@ description: 'Prints a message to the standard output'
 inputs:
   message:
     description: 'The message to print'
-    required: false
-    default: 'The forest is big'
+    required: true
 outputs:
   time: # id of output
     description: 'The time of the message'	
