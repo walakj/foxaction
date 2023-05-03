@@ -1,0 +1,24 @@
+{
+  "name": "foxaction",
+  "version": "1.0.0",
+  "description": "An action for foxes",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walakj/foxaction.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/walakj/foxaction/issues"
+  },
+  "homepage": "https://github.com/walakj/foxaction#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/exec": "^1.1.1",
+    "@actions/github": "^5.1.1"
+  }
+}

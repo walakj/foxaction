@@ -1,7 +1,12 @@
 const core = require('@actions/core');
 const github = require('@actions/github');
 
+const exec = require('@actions/exec');
+
+
 try {
+  core.notice("starting foxaction!")
+
   // Get the message input from the action metadata file
   const message = core.getInput('message');
   // Print the message to the standard output
